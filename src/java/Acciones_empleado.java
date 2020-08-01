@@ -8,6 +8,30 @@
  *
  * @author demon
  */
+
+import java.sql.*;
+import java.util.*;
+
 public class Acciones_empleado {
+    
+    //conexion
+    
+    public static Connection getConnection(){
+    
+    }
+    
+    //guardar empleado
+    
+    //actualizar ficha del empleado
+    
+    //delete
+    
+    //buscar por id
+    
+    //busqueda general
+    
+    //verificar empleado
+    
+    //
     
 }
