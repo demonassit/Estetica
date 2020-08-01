@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>
+            <h1>Registrar un nuevo Empleado</h1>
+            <br>
+            <form method="post" name="formulario" action="insertarempleado.jsp" >
+                <table border="1" >
+                    <tr><td>Nombre: </td> <td><input type="text" name="nombre"></td></tr>
+                    <tr><td>Apellido Paterno: </td> <td><input type="text" name="appat"></td></tr>
+                    <tr><td>Apellido Materno: </td> <td><input type="text" name="apmat"></td></tr>
+                    <tr><td>Edad: </td> <td><input type="text" name="edad"></td></tr>
+                    <tr><td>Email : </td> <td><input type="email" name="email"></td></tr>
+                    <tr><td>Password: </td> <td><input type="password" name="password"></td></tr>
+                    <tr><td>Puesto: </td> <td><select name="puesto" >
+                                <option>Estilista</option>
+                                <option>Ayudan General</option>
+                                <option>Gerente</option>
+                            </select></td></tr>
+                    <tr><td colspan="2" ><input type="submit" value="Guardar Empleado"></td></tr>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>
